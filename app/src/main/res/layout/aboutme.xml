@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:text="\n\n个人开发者：狗哥同学\n\n联系邮箱：xhc_1@sina.com\n\n说明：若软件有bug或者您有什么建议或者意见请发送到联系邮箱\n\n后期将会更新添加其他数字游戏。敬请期待\n\n新浪微博：@狗哥同学
+                                                                           " />
+        
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/sudokuview"
+            android:layout_width="match_parent"
+            android:layout_height="470dp"
+            android:background="#BDAEA4" >
+
+            <TextView
+                android:id="@+id/sudoku"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="数独"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/level1"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/sudoku"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="难度1"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/level2"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/level1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="难度2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/level3"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/level2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="难度3"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/level4"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/level3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="难度4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/level5"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/level4"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="难度5"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/describesudoku"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/level5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#6DDBFF"
+                android:gravity="center"
+                android:text="帮助"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/line1"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/sortview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#BDAEA4" >
+
+            <TextView
+                android:id="@+id/saolei"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="扫雷"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/saoleilevel1"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/saolei"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="容易"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/saoleilevel2"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/saoleilevel1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="一般"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/saoleilevel3"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/saoleilevel2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="困难"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/describesaolei"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/saoleilevel3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#6DDBFF"
+                android:gravity="center"
+                android:text="帮助"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/line2"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/saoleiview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#BDAEA4" >
+
+            <TextView
+                android:id="@+id/sort"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="数字排序"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/sortlevel1"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/sort"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="容易"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/sortlevel2"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/sortlevel1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="一般"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/sortlevel3"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/sortlevel2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#D19378"
+                android:gravity="center"
+                android:text="困难"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/describesort"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/sortlevel3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#6DDBFF"
+                android:gravity="center"
+                android:text="帮助"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/line3"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#ffffff" />
+
+        <RelativeLayout
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#BDAEA4" >
+
+            <TextView
+                android:id="@+id/aboutme"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:background="#C4C3C0"
+                android:gravity="center"
+                android:text="关于"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

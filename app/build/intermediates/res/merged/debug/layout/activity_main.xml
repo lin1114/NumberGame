@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xhc.numbergame.activity.MainActivity" >
+
+   <LinearLayout
+       android:background="#FF9C9C"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       ></LinearLayout>
+   
+   <LinearLayout
+       android:background="#FFDE9E"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       ></LinearLayout>
+ 
+          <TextView
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_weight="0.30"
+              android:background="#FFFFA2"
+              android:gravity="center"
+              android:text="数字游戏"
+              android:textColor="#A0C8F1"
+              android:textSize="40sp" />
+ 
+      <LinearLayout
+       android:background="#9EFF9E"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       ></LinearLayout>
+     <LinearLayout
+       android:background="#9C9CFF"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       ></LinearLayout>
+
+     <RelativeLayout
+         android:id="@+id/loading"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="0.33"
+         android:background="#E6E6E6" >
+         
+         <TextView
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:text="智商加载中..."
+             android:textColor="#EC8494"
+             android:textSize="20sp"
+             android:layout_marginTop="20dp"
+             android:gravity="center"
+             />
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          
+          ></LinearLayout>         
+     </RelativeLayout>
+      <LinearLayout
+       android:background="#9ECFFF"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       ></LinearLayout>
+      
+    <LinearLayout
+       android:background="#D6A2FF"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       ></LinearLayout>
+</LinearLayout>
